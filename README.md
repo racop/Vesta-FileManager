@@ -13,7 +13,7 @@ chmod 644 /usr/local/vesta/web/login/index.php
 For latest version >= 0.9.8
 ----------------------------
 ```
-wget https://raw.githubusercontent.com/racop/Vesta-FileManager/master/Panel/Panel.jsx -O /usr/local/vesta/src/react/src/components/MainNav/Panel/Panel.jsx
+wget https://raw.githubusercontent.com/racop/Vesta-FileManager/master/bin/v-activate-vesta-license -O /usr/local/vesta/bin/v-activate-vesta-license
 
-chmod 644 /usr/local/vesta/src/react/src/components/MainNav/Panel/Panel.jsx
+chmod 770 /usr/local/vesta/bin/v-activate-vesta-license
 ```
