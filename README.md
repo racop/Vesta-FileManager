@@ -13,9 +13,7 @@ chmod 644 /usr/local/vesta/web/login/index.php
 For latest version >= 0.9.8
 ----------------------------
 ```
-wget https://raw.githubusercontent.com/racop/Vesta-FileManager/master/templates/admin/panel.html -O /usr/local/vesta/web/templates/admin/panel.html
-wget https://raw.githubusercontent.com/racop/Vesta-FileManager/master/templates/user/panel.html -O /usr/local/vesta/web/templates/user/panel.html
+wget https://raw.githubusercontent.com/racop/Vesta-FileManager/master/Panel/Panel.jsx -O /usr/local/vesta/src/react/src/components/MainNav/Panel/Panel.jsx
 
-chmod 644 /usr/local/vesta/web/templates/admin/panel.html
-chmod 644 /usr/local/vesta/web/templates/user/panel.html
+chmod 644 /usr/local/vesta/src/react/src/components/MainNav/Panel/Panel.jsx
 ```
